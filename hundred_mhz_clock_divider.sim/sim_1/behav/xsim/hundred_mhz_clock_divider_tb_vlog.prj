@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../hundred_mhz_clock_divider.srcs/sources_1/new/hundred_mhz_clock_divider.v" \
+"../../../../hundred_mhz_clock_divider.srcs/sim_1/new/hundred_mhz_clock_divider_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
